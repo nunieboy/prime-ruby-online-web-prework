@@ -8,10 +8,10 @@ def prime?(number)
     prime_num == 0
     divisor += 1
     binding.pry
+  end
   if divisor == 2
     return true
   else
     return false
   end
-end
 end
