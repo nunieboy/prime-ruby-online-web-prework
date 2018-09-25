@@ -7,7 +7,6 @@ def prime?(number)
     prime_num = number % i
     prime_num == 0
     divisor += 1
-    binding.pry
   end
   if divisor == 2
     return true
