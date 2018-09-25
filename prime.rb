@@ -5,8 +5,9 @@ def prime?(number)
   divisor = 0
   for i in 1..number do
     prime_num = number % i
-    prime_num == 0
-    divisor += 1
+    if prime_num == 0 do
+      divisor += 1
+    end
   end
   if divisor == 2
     return true
