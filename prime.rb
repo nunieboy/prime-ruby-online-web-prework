@@ -6,7 +6,6 @@ def prime?(number)
     prime_num = number % i
     prime_num == 0
     divisor += 1
-    end
   if divisor == 2
     return true
   else
