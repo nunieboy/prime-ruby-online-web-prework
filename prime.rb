@@ -7,7 +7,7 @@ def prime?(number)
     if prime_num == 0
       divisor += 1
     end
-  if divisor == 1
+  if divisor == 2
     return true
   elsif number == (-1)
     return false
